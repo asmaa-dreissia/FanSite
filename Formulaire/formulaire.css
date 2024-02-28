@@ -1,17 +1,90 @@
 *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+header{
+    background-color: #606964;
+    height: 60px;
+}
+
+nav .nav-list .navi{ 
+    display: inline-block;
+    padding: 20px;
+}
+
+.nav-list .navi a {
+    color: white;
+}
+
+/* BARRE NAVIGATION*/
+
+footer{
+    position: absolute; bottom: 0; left: 0; right: 0;
+    display: inline-block;
+}
+
+.footer { 
+display: flex;
+justify-content: space-evenly;
+padding: 20px;
+font-size: 12px;
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.copyright{
+    border-top: 1px solid #606964;
+    text-align: center;
+    font-size: 12px;
+
+}
+a{ color: black;}
+
+footer{
+    background-color: #606964;
+    position: relative;
+    left: 0;
+    top: 400px;
+    width: 100%;
+    color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Footer */
+
+body{
+    background-image: url(https://www.thebackpackerz.com/wp-content/uploads/2021/03/Booba-10-albums.jpg); 
+    background-size: 130%;
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+}
+
+/* photo de fond */
+
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Times New Roman', Times, serif;
 }
 
-body{ 
-    background-color: #606964;
+.cube{
     display: flex;
-    align-items: center;
     justify-content: center;
-    height: 100vh;
+    align-items: center;
+    padding-top: 100px;
 }
+
 
 form{
     display: flex;
@@ -88,10 +161,5 @@ p a:hover{
     text-decoration: underline;
 }
 
-/* image*/
+/* formulaire*/ 
 
-body{
-    background-image: url(https://www.thebackpackerz.com/wp-content/uploads/2021/03/Booba-10-albums.jpg);
-    background-repeat: no-repeat;
-    background-position: 0px 0px;
-}

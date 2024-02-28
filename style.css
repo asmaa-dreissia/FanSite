@@ -1,4 +1,3 @@
-
 *{
     padding: 0;
     margin: 0;
@@ -7,20 +6,39 @@
     text-decoration: none;
 }
 
-
-
 header{
     background-color: #606964;
     height: 60px;
 }
 
+a{
+    color: rgb(255, 255, 255);
+}
+
+body{
+    background-color: #606964;
+}
+
+
 nav .nav-list .navi{ 
     display: inline-block;
     padding: 20px;
+
 }
 
+/*barre navigation milieu*/
+
 .nav-list .navi a {
-    color: white;
+    color: rgb(255, 255, 255);
+    background-color: #606964;
+}
+/**/
+
+.nav-list{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px;
+    sfont-size: 12px;
 }
 
 .fansite{
@@ -60,5 +78,4 @@ font-size: 12px;
     font-size: 12px;
 
 }
-a{ color: black;}
 
