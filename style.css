@@ -12,13 +12,8 @@ header{
 }
 
 a{
-    color: rgb(255, 255, 255);
+    color: black;
 }
-
-body{
-    background-color: #606964;
-}
-
 
 nav .nav-list .navi{ 
     display: inline-block;
@@ -38,7 +33,7 @@ nav .nav-list .navi{
     display: flex;
     justify-content: space-evenly;
     padding: 0px;
-    sfont-size: 12px;
+    font-size: 12px;
 }
 
 .fansite{
@@ -78,4 +73,3 @@ font-size: 12px;
     font-size: 12px;
 
 }
-
